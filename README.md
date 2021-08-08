@@ -38,7 +38,7 @@ If one were to look at only the Total Summary Output, the variance is 62.3. This
 
 Results of the T Test outputs are below.
 ### T-Test Output (All Lots)
-![T.Test All]('images/t_test_all.png')
+![T.Test All](images/t_test_all.png)
 From the above image we see that the p-value is 0.06028. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore we can state the the two means are statistically similar as we cannot reject the null hypothesis.
 
 ### T-Test Output (Lot 1)
