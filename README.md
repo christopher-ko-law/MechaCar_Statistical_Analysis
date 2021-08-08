@@ -5,10 +5,10 @@
 The results of performing Linear Regression are below.
 
 ### Linear Regression Output
-![Linear Regression]('images/lm_output.png')
+![Linear Regression](images/lm_output.png)
 
 ### Summary Output
-![Summary]('images/summary_lm_output.png')
+![Summary](images/summary_lm_output.png)
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Seen in the summary output above, the Pr(>|t|) values that are lower that 0.05 would be provide a non-random amount of variance to the mpg values. These variables are the vehicle_length and ground_clearance. 
@@ -25,10 +25,10 @@ Yes, from the datapoints that were analyzed, we can effectively see what paramet
 Reslts of the summary statistics are below:
 
 ### Total Summary Output
-![Total Summary]('images/total_summary.png')
+![Total Summary](images/total_summary.png)
 
 ### Lot Summary Output
-![Lot Summary]('images/lot_summary.png')
+![Lot Summary](images/lot_summary.png)
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 If one were to look at only the Total Summary Output, the variance is 62.3. This is within design specification. However, when we drill down to each lot, we see that Lot1 and Lot2 have very low variance, while Lot3 has a very high value of 170.3. Lot3 does not meet the design specifications, and as such this should be investigated.
@@ -42,15 +42,15 @@ Results of the T Test outputs are below.
 From the above image we see that the p-value is 0.06028. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore we can state the the two means are statistically similar as we cannot reject the null hypothesis.
 
 ### T-Test Output (Lot 1)
-![T.Test Lot 1]('images/t_test_lot1.png')
+![T.Test Lot 1](images/t_test_lot1.png)
 From the above image we see that the p-value is 1. Assuming our significance level was the common 0.05 percent, our p-value is way above our significance level. Therefore we can state the the two means are statistically similar as we cannot reject the null hypothesis.
 
 ### T-Test Output (Lot 2)
-![T.Test Lot 2]('images/t_test_lot2.png')
+![T.Test Lot 2](images/t_test_lot2.png)
 From the above image we see that the p-value is 0.06072. Assuming our significance level was the common 0.05 percent, our p-value is above our significance level. Therefore we can state the the two means are statistically similar as we cannot reject the null hypothesis.
 
 ### T-Test Output (Lot 3)
-![T.Test Lot 3]('images/t_test_lot3.png')
+![T.Test Lot 3](images/t_test_lot3.png)
 From the above image we see that the p-value is 0.04168. Assuming our significance level was the common 0.05 percent, our p-value is below our significance level. Therefore we can state the the two means are not statistically similar and we can reject the null hypothesis.
 
 
